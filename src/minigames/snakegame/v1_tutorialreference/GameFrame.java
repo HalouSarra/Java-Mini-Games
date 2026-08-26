@@ -1,4 +1,4 @@
-package minigames.snakegame;
+package minigames.snakegame.v1_tutorialreference;
 
 import javax.swing.*;
 
