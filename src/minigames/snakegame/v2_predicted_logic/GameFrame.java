@@ -1,7 +1,6 @@
-package minigames.snakegame.v2_predictedlogic;
+package minigames.snakegame.v2_predicted_logic;
 
 import javax.swing.*;
-import java.awt.*;
 
 public class GameFrame extends JFrame {
     GameFrame(){
