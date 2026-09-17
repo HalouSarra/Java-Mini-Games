@@ -1,4 +1,4 @@
-package minigames.snakegame.v4_buildfromscratch;
+package minigames.snakegame.v4_build_from_scratch;
 
 import javax.swing.*;
 import java.awt.*;

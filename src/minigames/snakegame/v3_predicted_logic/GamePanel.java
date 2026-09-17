@@ -1,4 +1,4 @@
-package minigames.snakegame.v3_predictedlogic;
+package minigames.snakegame.v3_predicted_logic;
 
 import javax.swing.*;
 import java.awt.*;

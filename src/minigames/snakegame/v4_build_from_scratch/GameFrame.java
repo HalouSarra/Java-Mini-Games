@@ -1,9 +1,9 @@
-package minigames.snakegame.v3_predictedlogic;
+package minigames.snakegame.v4_build_from_scratch;
 
 import javax.swing.*;
 
 public class GameFrame extends JFrame {
-    GameFrame() {
+    GameFrame(){
         this.add(new GamePanel());
         this.setTitle("Snake Game");
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
