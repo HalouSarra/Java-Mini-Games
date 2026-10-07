@@ -7,14 +7,19 @@ public class App {
         int rowCount = 21;
         int columnCount = 19;
         int tileSize = 32;
-        int boardWidth = columnCount * tileSize;
-        int boardHeight = rowCount * tileSize;
+        int borderWidth = columnCount * tileSize;
+        int borderHeight = rowCount * tileSize;
 
         JFrame frame = new JFrame("Pac Man");
-        frame.setVisible(true);
-        frame.setSize(boardWidth, boardHeight);
-        frame.setLocationRelativeTo(null);
+        frame.setSize(borderWidth, borderHeight);
         frame.setResizable(false);
-        frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        frame.setLocationRelativeTo(null);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        PacMan pacmanGame = new PacMan();
+        frame.add(pacmanGame);
+        frame.pack(); //get the full size of our JPanel withing our window
+        pacmanGame.requestFocus(); //after setting the focus on the JPanel
+        frame.setVisible(true);
     }
 }
